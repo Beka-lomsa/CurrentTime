@@ -1,12 +1,12 @@
 .main_container{
   width: 100%;
   height: 800px;
-  background: #0F1624;
+  background: #11071F;
 }
 .project_header{
   width: 100%;
-  height: 137px;
-  background-color: #0c121d;
+  height: 80px;
+  background-color: #1A0B2E;
   display: flex;
   align-items: center;
   text-align: center;
@@ -16,25 +16,51 @@
   text-transform: capitalize;
 }
 .hd_left{
+  height: 100%;
   width: 200px;
   display: flex;
+  align-items: center;
 }
 .hd_left p {
+  height: 100%;
+  display: flex;
+  align-items: center;
   cursor: pointer;
+  padding: 0 10px;
 }
-.portfolio_icons{
+.hd_left p:hover{
+  background-color: #11071F;
+  color: #6d5093;
+}
+.print_icons{
   width: 33px;
   height: 33px;
   margin-right: 20px;
   cursor: pointer;
 }
+.print_icons:hover{
+  width: 31px;
+  height: 31px;
+  margin-right: 22px;
+  color: #6d5093;
+}
 .navigationBar{
   display: flex;
   width: 700px;
+  height: 100%;
   justify-content: space-around;
+  align-items: center;
 }
 .navigationBar p{
   cursor: pointer;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+.navigationBar p:hover {
+  background-color: #11071F;
+  color: #6d5093;
 }
 .hd_right{
   justify-content: end;
@@ -46,6 +72,12 @@
   height: 27px;
   margin-left: 25px;
   cursor: pointer;
+}
+.hd_right .link_icons:hover {
+  width: 25px;
+  height: 25px;
+  margin-left: 27px;
+  color: #6d5093;
 }
 
 

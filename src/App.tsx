@@ -1,5 +1,6 @@
 import { PiFingerprintFill } from 'react-icons/pi';
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
+import HomeSection from "./Components/HomeSection"
 import './App.css'
 
 function App() {
@@ -8,8 +9,8 @@ function App() {
     <div className='main_container'>
       <header className='project_header'>
         <div className='hd_left'>
-          <PiFingerprintFill className="portfolio_icons"/>
-          <p className='portfolio'>portfolio</p>
+          <PiFingerprintFill className="print_icons"/>
+          <p className='home'>home</p>
         </div>
         <div className='navigationBar'>
           <p>About Me</p>
@@ -21,6 +22,7 @@ function App() {
           <BsLinkedin className="link_icons"/>
         </div>
       </header>
+      <HomeSection/>
     </div>
   )
 }
