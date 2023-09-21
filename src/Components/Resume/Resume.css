@@ -1,0 +1,117 @@
+.resume_Container {
+  height: 600px;
+  width: 100%;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-family: 'Kalam';
+  padding: 0 80px;
+}
+.connection_container{
+  height: 800px;
+  border-left: 5px solid #606e43;
+  border-right: 5px solid #606e43;
+  border-radius: 10px;
+  padding-top: 10px;
+  display: flex;
+}
+.left_part {
+  width: 60%;
+  padding-right: 10px;
+}
+.cv_header{
+  width: 100%;
+  display: flex;
+}
+.persInfo{
+  display: flex;
+  flex-direction: column;
+}
+.cvImg{
+  width: 150px;
+  height: 160px;
+  border-radius: 100%;
+  margin: 0px 15px;
+}
+.border{
+  height: 780px;
+  border-left: 5px double black;
+}
+/** contact_info  Container */
+
+.contact_Info{
+  width: 100%;
+  height: 200px;
+  background-color: #bccdb3;
+  opacity: 0.8;
+  display: flex;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+.leftPart_contact{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 10px;
+}
+.leftPart_contact p {
+  display: flex;
+}
+.rightPart_contact{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.rightPart_contact p {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+  color: #606e43;
+}
+.cont_icons{
+  width: 30px;
+  height: 25px;
+  margin-right: 30px;
+  color: #606e43;
+}
+
+/** skills_container */
+
+.skills_container {
+  width: 100%;
+  height: 250px;
+  background-color: #bccdb3;
+  opacity: 0.8;
+  display: flex;
+  margin-left: 5px;
+  margin-top: 15px;
+  padding-top: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list_ofSkills{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 150px;
+  row-gap: 15px;
+}
+.list_ofSkills p {
+  width: 120px;
+  height: auto;
+  padding: 3px;
+  background-color: #b2bc9f;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+  text-transform: capitalize;
+}

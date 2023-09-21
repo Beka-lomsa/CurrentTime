@@ -1,0 +1,43 @@
+.about_Container {
+  height: 570px;
+  /* background: linear-gradient(45deg, #c4c8c8, #e8ffdc,  #e8ffdc, rgb(187, 204, 160), rgb(206, 216, 175), rgb(255, 255, 255)); */
+  background: linear-gradient(45deg, #7e9797, #8aa09c,  rgb(202, 224, 196), rgb(146, 163, 121), rgb(190, 206, 143), rgb(178, 192, 93));
+  margin: 50px 220px 0;
+  padding: 40px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: 'Kalam';
+  text-shadow: 0.5px 0.5px 0.5px #5b5e5b;
+  box-shadow: 15px 15px 50px 5px rgb(79, 72, 72);
+}
+.flagInfo_Container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  font-size: 2rem;
+  color: #551901;
+  font-weight: bold;
+
+}
+.geoFlag{
+  width: 100px;
+  height: 55px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.allInfo_Container{
+  font-size: 1.5rem;
+  color: #401302;
+  opacity: 0.9;
+}
+.devInfo{
+  font-size: 1.5rem;
+  color: #401302;
+  letter-spacing: 2px;
+  text-decoration: underline;
+}
